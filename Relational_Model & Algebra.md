@@ -93,12 +93,12 @@ Select: retrieve or view data based on specific conditions.
 
 # Data indebendance :
 
-Simple Explanation
+# Simple Explanation 
 
 When you are working at a certain level in the database architecture,
 you don’t need to care about the details of the other levels.
 
-For example:
+# For example:
 If you are working at the Logical Schema level — designing tables, attributes, and relationships —
 you don’t care how the data is physically stored on the disk.
 Your focus is only on the logical structure (how data is organized conceptually).
