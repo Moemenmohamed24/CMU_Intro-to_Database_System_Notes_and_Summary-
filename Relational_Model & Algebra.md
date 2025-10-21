@@ -150,3 +150,8 @@ External Level	How users view the data (views)	User Applications
 Changes between Internal ↔ Conceptual → provide Physical Data Independence
 
 Changes between Conceptual ↔ External → provide Logical Data Independence
+
+# Relational Algebra operation:
+
+<img width="738" height="453" alt="image" src="https://github.com/user-attachments/assets/25b87cb9-6a46-4a72-b9c5-db3f5a1eb2aa" />
+
