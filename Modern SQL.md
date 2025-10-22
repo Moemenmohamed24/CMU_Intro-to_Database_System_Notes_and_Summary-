@@ -1,4 +1,4 @@
-# Modern SQL.md:
+# Modern SQL:
 
 <img width="821" height="461" alt="image" src="https://github.com/user-attachments/assets/4c2c906b-9a35-481e-acf0-70ea8e656c97" />
 
