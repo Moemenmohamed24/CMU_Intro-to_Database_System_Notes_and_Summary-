@@ -1,6 +1,4 @@
-<img width="934" height="485" alt="image" src="https://github.com/user-attachments/assets/ac0b4e04-2a11-4aa6-ba63-b9426c957674" /># Modern SQL:
-
-<img width="821" height="461" alt="image" src="https://github.com/user-attachments/assets/4c2c906b-9a35-481e-acf0-70ea8e656c97" />
+# Modern SQL:
 
 # Aggregate Functions:
 
