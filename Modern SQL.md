@@ -1,4 +1,4 @@
-# Modern SQL:
+<img width="934" height="485" alt="image" src="https://github.com/user-attachments/assets/ac0b4e04-2a11-4aa6-ba63-b9426c957674" /># Modern SQL:
 
 <img width="821" height="461" alt="image" src="https://github.com/user-attachments/assets/4c2c906b-9a35-481e-acf0-70ea8e656c97" />
 
@@ -29,3 +29,28 @@ SQL won't know:
 # STRING OPERATIONS:
 
 <img width="889" height="441" alt="image" src="https://github.com/user-attachments/assets/4f54590b-0cb9-423b-94f3-7bb411a05ea5" />
+
+
+
+# Window functions:
+
+# - Row_number -
+
+When there is no PARTITION BY:
+
+It means that SQL treats the entire table as one single group (one window).
+All the rows belong to the same window,
+so ROW_NUMBER() numbers the entire table from the first row to the last row
+based on the column specified in the ORDER BY clause or create the row call like after as ex) row_num.
+
+<img width="934" height="485" alt="image" src="https://github.com/user-attachments/assets/b3bccc87-a79e-4c1d-afb7-be5d143fab8e" />
+
+# - Row_number -
+
+When there is a PARTITION BY:
+
+It means that SQL divides the table into multiple groups (partitions) based on the column(s) specified after PARTITION BY.
+Each partition acts like a separate mini-table, and the window function (like ROW_NUMBER()) works independently inside each partition.
+So the numbering starts again from 1 within every partition.
+
+<img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/74591138-184f-4e29-83b2-53b40dadcdcb" />
