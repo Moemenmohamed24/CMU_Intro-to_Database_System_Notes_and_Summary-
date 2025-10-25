@@ -52,3 +52,11 @@ Each partition acts like a separate mini-table, and the window function (like RO
 So the numbering starts again from 1 within every partition.
 
 <img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/74591138-184f-4e29-83b2-53b40dadcdcb" />
+
+important notes: The OVER keyword specifies how to
+group together tuples when
+computing the window function.
+Use PARTITION BY to specify group.
+
+
+
