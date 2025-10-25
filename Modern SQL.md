@@ -2,7 +2,7 @@
 
 # Aggregate Functions:
 
-Functions that return a single value from a bag of
+Functions that return a single value from a bag of 
 tuples:
 → AVG(col)→ Return the average col value.
 → MIN(col)→ Return minimum col value.
