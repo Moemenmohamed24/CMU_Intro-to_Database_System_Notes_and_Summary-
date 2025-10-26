@@ -59,5 +59,56 @@ computing the window function.
 Use PARTITION BY to specify group.
 
 # NESTED QUERIES
+this is example is complex and not fast because the  subquery is not Fixed:
+SELECT sid,
+       (SELECT name FROM student WHERE student.sid = enrolled.sid)
+FROM enrolled;
 
+and this is fast because the  subquery is Fixed :
 <img width="1156" height="653" alt="Screenshot 2025-10-26 174855" src="https://github.com/user-attachments/assets/cd1178bd-b05a-45eb-ad22-d3b4ca8c87fc" />
+
+
+# NESTED QUERIES
+
+<img width="695" height="406" alt="image" src="https://github.com/user-attachments/assets/467b3d05-8e27-496d-87ee-5f1d6c80bf59" />
+
+# All:
+
+select fname
+from  Embloy333111 
+where salary = All(select  salary from Embloy333111 where salary = 12).
+
+
+Meaning: The condition must be true for all values ​​returned from the subquery.
+This means that the comparison is valid for all rows returned.
+ALL means that the condition (salary =...) must be true for all values ​​returned from the subquery.
+
+# Any:
+
+select fname
+from  Embloy333111 
+where salary = Any(select  salary from Embloy333111 where salary = 12).
+
+Meaning: The condition must be true for at least one row of the subquery.
+That is, if the condition is true for any of the values ​​returned, the condition is true.
+
+# LATERAL JOINS:
+
+<img width="956" height="538" alt="Screenshot 2025-10-26 221347" src="https://github.com/user-attachments/assets/b4bdf5bf-03b6-4770-9d47-359015b6a452" />
+
+in SQL Server call CROSS APPLY:
+SELECT s.name, sub.subject
+FROM Students AS s
+CROSS APPLY (
+    SELECT TOP 1 subject
+    FROM Subjects AS sub
+    WHERE sub.student_id = s.student_id
+    ORDER BY subject
+) AS sub;
+
+For each row in the first table, run the second query that can use columns from that row.
+
+The idea behind a LATERAL JOIN is simply that it allows SQL to:
+ Retrieve more than one type of information in the same query,
+ Each piece of information generated from a different subquery,
+ But all of them are linked to the same row from the main table.
