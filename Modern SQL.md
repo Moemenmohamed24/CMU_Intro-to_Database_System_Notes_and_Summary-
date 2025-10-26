@@ -58,5 +58,6 @@ group together tuples when
 computing the window function.
 Use PARTITION BY to specify group.
 
+# NESTED QUERIES
 
-
+<img width="1156" height="653" alt="Screenshot 2025-10-26 174855" src="https://github.com/user-attachments/assets/cd1178bd-b05a-45eb-ad22-d3b4ca8c87fc" />
