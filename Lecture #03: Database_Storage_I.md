@@ -36,6 +36,14 @@ The idea: To take advantage of the combined speed of sequential writes and rando
 
 
 
+# (Disk-Oriented DBMS):
+
+<img width="842" height="376" alt="image" src="https://github.com/user-attachments/assets/2e6d9494-1a0c-4b0b-a5ac-28568f128852" />
+
+
+# FILE STORAGE :
+
+<img width="1205" height="681" alt="Screenshot 2025-11-06 163406" src="https://github.com/user-attachments/assets/a9ff46b7-6868-4b40-8022-b3806b4ab849" />
 
 
 
