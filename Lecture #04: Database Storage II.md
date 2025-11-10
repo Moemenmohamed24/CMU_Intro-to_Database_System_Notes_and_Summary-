@@ -7,3 +7,7 @@
  
 <img width="634" height="320" alt="image" src="https://github.com/user-attachments/assets/3c87be0c-b912-4677-9c10-b9dd2a143baf" />
 
+# Problems TUPLE-ORIENTED STORAGE :
+
+<img width="681" height="395" alt="image" src="https://github.com/user-attachments/assets/7d0ce88b-6d04-4953-8eef-03e954f09a39" />
+
