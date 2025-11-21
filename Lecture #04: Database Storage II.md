@@ -1,4 +1,4 @@
-# RECORD IDS :
+<img width="669" height="758" alt="image" src="https://github.com/user-attachments/assets/8d0a8698-86c8-484a-91c6-89a234d0e319" /># RECORD IDS :
 
 <img width="897" height="508" alt="Screenshot 2025-11-10 135903" src="https://github.com/user-attachments/assets/a1a1808d-4d21-438e-937d-5769887d1d69" />
 
@@ -120,6 +120,15 @@ After identifying the right file using the SummaryTable:
 * The system opens **SSTable #2**.
 * Performs a **binary search** inside it (since it’s sorted).
 * Finds and returns the desired value.
+
+
+# DATA LAYOUT:
+
+<img width="669" height="758" alt="Screenshot 2025-11-21 181726" src="https://github.com/user-attachments/assets/74c086f3-00b0-4e3e-ad00-91a83bbb7102" />
+
+
+
+
 
 
 
