@@ -1,4 +1,4 @@
-<img width="669" height="758" alt="image" src="https://github.com/user-attachments/assets/8d0a8698-86c8-484a-91c6-89a234d0e319" /># RECORD IDS :
+# RECORD IDS :
 
 <img width="897" height="508" alt="Screenshot 2025-11-10 135903" src="https://github.com/user-attachments/assets/a1a1808d-4d21-438e-937d-5769887d1d69" />
 
