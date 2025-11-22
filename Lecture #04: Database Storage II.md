@@ -128,7 +128,36 @@ After identifying the right file using the SummaryTable:
 
 
 
+# WORD-ALIGNED TUPLES : 
+
+<img width="641" height="729" alt="Screenshot 2025-11-21 211435" src="https://github.com/user-attachments/assets/7bda175f-7fde-41f1-80d3-c8f8ccc04765" />
 
 
+# WORD-ALIGNMENT: PADDING :
+The CPU reads data in fixed units called words (usually 8 bytes).
+Each column must start at an address divisible by the size of the word (8).
+The problem isn't the column size, but rather where it starts within the row.
+If a column doesn't start at 8, we add padding before it.
+The same applies to the end of the row: it must finish aligned for the next row to start aligned.
+That's why you sometimes find padding before certain columns and after the last column, even if the column sizes themselves are small.
 
 
+# LARGE VALUES : 
+
+<img width="901" height="509" alt="Screenshot 2025-11-22 005058" src="https://github.com/user-attachments/assets/60d74338-990c-4067-b5db-775d7f2dfece" />
+
+When the contents value is large, it is not stored in its entirety in the original record on the main data page. Instead, the large value is replaced with smaller metadata and an index.
+
+Record content on the header page:
+Header: Database system information (such as record index, record size).
+INT: The value of the id field.
+INT: The value of the data field.
+Size: The original size of the entire contents field (e.g., 500KB).
+Location (Pointer): The address (pointer) indicating the separate page where the large value is actually stored.
+
+
+The red arrow indicates that the location pointer is to a separate overflow page:
+Storage location: This page is located elsewhere on disk and is not part of the original record page.
+Stored data: The actual large value (in our example: the long data for VARCHAR DATA or TEXT) is stored within this page.
+
+This mechanism allows the original record to remain small and aligned within the home page, while large data is handled independently when needed.
