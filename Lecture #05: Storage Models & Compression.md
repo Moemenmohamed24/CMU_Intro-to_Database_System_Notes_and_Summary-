@@ -1,4 +1,4 @@
-<img width="765" height="431" alt="image" src="https://github.com/user-attachments/assets/636f0f62-7d79-4fd1-aaf7-ab545c167333" /># Lecture #05: Storage Models & Compression
+# Lecture #05: Storage Models & Compression
 
 
 # DATABASE WORKLOADS:
@@ -15,3 +15,17 @@
 
 <img width="718" height="427" alt="image" src="https://github.com/user-attachments/assets/c5302aa6-8342-4d6a-883a-7b38dd2c924e" />
 
+# NSM: PHYSICAL ORGANIZATION :
+
+<img width="816" height="922" alt="image" src="https://github.com/user-attachments/assets/d8f65f35-b263-4339-a562-5501cea3f3c6" />
+
+<img width="662" height="425" alt="image" src="https://github.com/user-attachments/assets/90f4560c-5853-4ba4-b909-a0f9f6fca3e7" />
+
+
+# NSM: OLTP EXAMPLE :
+
+<img width="654" height="713" alt="image" src="https://github.com/user-attachments/assets/2f2b1d93-59d2-44ec-a8cb-26fe39028438" />
+
+# NSM: OLAP EXAMPLE :
+
+<img width="665" height="758" alt="image" src="https://github.com/user-attachments/assets/a0824e8d-8a55-473c-9fc4-daebf0e46cbf" />
