@@ -28,4 +28,4 @@
 
 # NSM: OLAP EXAMPLE :
 
-<img width="665" height="758" alt="image" src="https://github.com/user-attachments/assets/a0824e8d-8a55-473c-9fc4-daebf0e46cbf" />
+<img width="665" height="758" alt="image" src="https://github.com/user-attachments/assets/a0824e8d-8a55-473c-9fc4-daebf0e46cbf" /> 
